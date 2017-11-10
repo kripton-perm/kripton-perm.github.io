@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Краткое описание страницы менее 150 символов">
+  <title>Белый Журавль</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Standard favicon -->
+  <!-- <link rel="icon" type="image/x-icon" href="https://example.com/favicon.ico"> -->
+  <!-- Recommended favicon format -->
+  <!-- <link rel="icon" type="image/png" href="https://example.com/favicon.png"> -->
+</head>
+<body>
+  <header class="page-header">
+    <div class="page-header__wrapper">
+      <h1 class="visually-hidden">Центр Восточной Культуры <strong>Белый Журавль</strong>, город Пермь</h1>
+      <nav class="page-header__navigation main-nav main-nav--open main-nav--nojs">
+        <button class="main-nav__toggle">
+          <span class="visually-hidden">Меню</span>
+          <svg class="main-nav__toggle-image main-nav__toggle-image--open" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h24v24H0z" fill="transparent"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" fill="currentColor"/>
+          </svg>
+          <svg class="main-nav__toggle-image main-nav__toggle-image--close" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" fill="currentColor"/>
+            <path d="M0 0h24v24H0z" fill="transparent"/>
+          </svg>
+        </button>
+        <h2 class="visually-hidden">Главное меню</h2>
+        <ul class="main-nav__list site-menu">
+          <li class="site-menu__item site-menu__item">
+            <a class="site-menu__link site-menu__link--current">Главная</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="news.html">Новости</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="schedule.html">Расписание</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="prices.html">Цены</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="coaches.html">Тренеры</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="types.html">Направления</a>
+            <ul class="site-menu__secondary secondary">
+              <li class="secondary__item">
+                <a class="secondary__link" href="#">Боевые искусства</a>
+              </li>
+              <li class="secondary__item">
+                <a class="secondary__link" href="#">Йога</a>
+              </li>
+              <li class="secondary__item">
+                <a class="secondary__link" href="#">Оздоровительные практики</a>
+              </li>
+              <li class="secondary__item">
+                <a class="secondary__link" href="#">Женские практики</a>
+              </li>
+              <li class="secondary__item">
+                <a class="secondary__link" href="#">Психотерапия</a>
+              </li>
+              <li class="secondary__item">
+                <a class="secondary__link" href="#">Суставная гимнастика</a>
+              </li>
+              <li class="secondary__item">
+                <a class="secondary__link" href="#">Растяжка</a>
+              </li>
+              <li class="secondary__item">
+                <a class="secondary__link" href="#">Массажи</a>
+              </li>
+            </ul>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="shop.html">Магазин</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="contacts.html">Контакты</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="reviews.html">Отзывы</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="blog.html">Блог</a>
+          </li>
+        </ul>
+      </nav>
+      <p class="page-header__logo logo">
+        <a>
+          <picture>
+            <source media="(min-width: 960px)" srcset="img/white-crane-logo-1-desktop@2.png 2x, img/white-crane-logo-1-desktop.png 1x">
+            <source media="(min-width: 660px)" srcset="img/white-crane-logo-1-tablet@2.png 2x, img/white-crane-logo-1-tablet.png 1x">
+            <img class="logo__crane" src="img/white-crane-logo-1-mobile.png" alt="Логотип центра восточной культуры Белый Журавль" width="57" height="130" srcset="img/white-crane-logo-1-mobile@2.png 2x">
+          </picture>
+          <picture>
+            <source media="(min-width: 960px)" srcset="img/white-crane-logo-2-desktop@2.png 1x, img/white-crane-logo-2-desktop.png 1x">
+            <source media="(min-width: 660px)" srcset="img/white-crane-logo-2-tablet@2.png 2x, img/white-crane-logo-2-tablet.png 1x">
+            <img class="logo__text" src="img/white-crane-logo-2-mobile.png" alt="Логотип центра восточной культуры Белый Журавль" width="239" height="110" srcset="img/white-crane-logo-2-mobile@2.png 2x">
+          </picture>
+        </a>
+      </p>
+    </div>
+  </header>
+  <main class="page-main">
+    <section class="greeting">
+      <div class="greeting__wrapper">
+        <h2 class="greeting__title">Мы рады приветствовать вас <span>на нашем сайте!</span> </h2>
+        <p class="greeting__text">Центр Восточной Культуры «Белый журавль» - это уютное пространство в самом центре Перми, которое объединяет в одном месте многочисленные оздоровительные и духовные практики Индии, Китая, Японии и других стран Востока и Запада.</p>
+        <p class="greeting__list-intro">В «Белом журавле» каждый сможет:</p>
+        <ul class="greeting__list">
+          <li class="greeting__item">Укрепить и оздоровить своё тело</li>
+          <li class="greeting__item">Опробовать различные телесные практики</li>
+          <li class="greeting__item">Найти единомышленников</li>
+        </ul>
+        <a href="#" class="button greeting__link">Подробнее</a>
+      </div>
+    </section>
+    <section class="about">
+      <div class="about__wrapper">
+        <h2 class="visually-hidden">О нас</h2>
+        <p class="about__intro">Вступление про многообразие направлений: Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Злых грустный свой, своих повстречался диких всемогущая если заглавных меня!</p>
+        <ul class="about__list">
+          <li class="about__item">
+            <h3>Боевые искусства</h3>
+            <p class="about__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Путь, одна, если по всей подпоясал лучше вдали пустился встретил, речью сих великий скатился рыбными свой языкового! Текстами если рыбного, до.</p>
+            <svg class="about__icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h24v24H0z" fill="transparent"/>
+              <path d="M12 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2zm9 7h-6v13h-2v-6h-2v6H9V9H3V7h18v2z" fill="currentColor"/>
+            </svg>
+          </li>
+          <li class="about__item">
+            <h3>Массажи</h3>
+            <p class="about__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заголовок дал маленький своих своего до, языкового его алфавит все, лучше великий всемогущая заглавных проектах о прямо что себя? Текстов!</p>
+            <svg class="about__icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">   <path d="M23 5.5V20c0 2.2-1.8 4-4 4h-7.3c-1.08 0-2.1-.43-2.85-1.19L1 14.83s1.26-1.23 1.3-1.25c.22-.19.49-.29.79-.29.22 0 .42.06.6.16.04.01 4.31 2.46 4.31 2.46V4c0-.83.67-1.5 1.5-1.5S11 3.17 11 4v7h1V1.5c0-.83.67-1.5 1.5-1.5S15 .67 15 1.5V11h1V2.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5V11h1V5.5c0-.83.67-1.5 1.5-1.5s1.5.67 1.5 1.5z" fill="currentColor"/>
+            </svg>
+          </li>
+          <li class="about__item">
+            <h3>Оздоровительные практики</h3>
+            <p class="about__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Бросил диких о коварных гор инициал великий встретил, возвращайся. По всей правилами рекламных реторический подпоясал. Ее собрал страна меня? Она, силуэт!</p>
+            <svg class="about__icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h24v24H0z" fill="transparent"/>
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="currentColor"/>
+            </svg>
+          </li>
+          <li class="about__item">
+            <h3>Психотерапия</h3>
+            <p class="about__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Заглавных ipsum, злых свой пустился все своего вопроса диких. Грамматики первую коварных там то ручеек, злых свой океана использовало от всех.</p>
+            <svg class="about__icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" fill="currentColor"/>
+              <path d="M0 0h24v24H0z" fill="transparent"/>
+            </svg>
+          </li>
+          <li class="about__item">
+            <h3>Мастер-классы</h3>
+            <p class="about__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Диких рекламных что мир, подзаголовок. Рукописи по всей не даже дорогу ее маленькая заманивший, но, ты проектах подпоясал за его это.</p>
+            <svg class="about__icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h24v24H0z" fill="transparent"/>
+              <path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z" fill="currentColor"/>
+            </svg>
+          </li>
+        </ul>
+        <a href="#" class="button about__link">Подробнее</a>
+      </div>
+    </section>
+    <section class="schedule">
+      <div class="schedule__wrapper">
+        <h2 class="title schedule__title">Расписание на <time datetime="2017-11-05">5 ноября 2017</time> </h2>
+        <section class="schedule__day">
+          <table class="schedule__table">
+            <caption>Зал 1</caption>
+            <thead class="visually-hidden">
+              <tr>
+                <th>Начало занятия</th>
+                <th>Окончание занятия</th>
+                <th>Направление</th>
+                <th>Тренер</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="schedule__item">
+                <td>7:00</td>
+                <td>8:00</td>
+                <td>Beauty-йога</td>
+                <td>Винник Оксана</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>8:30</td>
+                <td>10:00</td>
+                <td>Ушу для школьников</td>
+                <td>Волгарева Динара</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>10:00</td>
+                <td>11:30</td>
+                <td>Хатха-йога</td>
+                <td>Туктамышева Екатерина</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>11:30</td>
+                <td>12:30</td>
+                <td>Женская йога, йога для беременных</td>
+                <td>Туктамышева Екатерина</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>16:00</td>
+                <td>17:00</td>
+                <td>Йога для тазобедренных суставов</td>
+                <td>Ярославская Эрика</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>18:00</td>
+                <td>19:00</td>
+                <td>Силовая йога</td>
+                <td>Дунаева Ирина</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>19:00</td>
+                <td>20:30</td>
+                <td>Кундалини-йога</td>
+                <td>Чупина Клавдия</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>20:30</td>
+                <td>22:00</td>
+                <td>Вин-чун</td>
+                <td>Щепин Егор</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="schedule__table">
+            <caption>Зал 2</caption>
+            <thead class="visually-hidden">
+              <tr>
+                <th>Начало занятия</th>
+                <th>Окончание занятия</th>
+                <th>Направление</th>
+                <th>Тренер</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="schedule__item">
+                <td>7:30</td>
+                <td>8:30</td>
+                <td>Цигун для начинающих</td>
+                <td>Варов Сергей</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>8:30</td>
+                <td>10:00</td>
+                <td>Бодифлекс</td>
+                <td>Колыванова Светлана</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>11:00</td>
+                <td>12:00</td>
+                <td>Динамический цигун</td>
+                <td>Варов Сергей</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>13:00</td>
+                <td>14:00</td>
+                <td>Хатха-йога "Здоровая спина"</td>
+                <td>Ярославская Эрика</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>14:30</td>
+                <td>15:30</td>
+                <td>Цигун. Дыхательные техники</td>
+                <td>Политова Ольга</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>16:00</td>
+                <td>17:00</td>
+                <td>Цигун для начинающих</td>
+                <td>Варов Сергей</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>18:00</td>
+                <td>19:30</td>
+                <td>Тайцзицуань</td>
+                <td>Чудинов Максим</td>
+              </tr>
+              <tr class="schedule__item">
+                <td>21:00</td>
+                <td>22:00</td>
+                <td>Цигун для начинающих</td>
+                <td>Варов Сергей</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <a href="#" class="button schedule__link">Расписание на неделю</a>
+        <button class="button schedule__signup" type="button">Записаться на занятие</button>
+        <section class="modal modal--signup schedule__modal signup">
+          <button class="signup__close" type="button">
+            <span class="visually-hidden">Закрыть</span>
+            <svg class="signup__close-icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" fill="currentColor"/>
+              <path d="M0 0h24v24H0z" fill="transparent"/>
+            </svg>
+          </button>
+          <div class="signup__wrapper">
+            <h3 class="visually-hidden">Запись на занятие</h3>
+            <p class="signup__intro">Чтобы записаться на занятие, позвоните нам по номеру <a href="tel:222-33-44">222-33-44</a>, или заполните форму:</p>
+            <form class="signup__form form" action="#" method="post">
+              <fieldset class="form__fieldset">
+                <legend>Ваши контактные данные</legend>
+                <ul class="form__list">
+                  <li class="form__item">
+                    <label class="form__label" for="name">Ваше имя:</label>
+                    <input class="form__input" type="text" name="name" id="name" placeholder="Иван" required>
+                  </li>
+                  <li class="form__item">
+                    <label class="form__label" for="surname">Ваша фамилия:</label>
+                    <input class="form__input" type="text" name="surname" id="surname" placeholder="Иванов" required>
+                  </li>
+                  <li class="form__item">
+                    <label class="form__label" for="phone">Номер телефона:</label>
+                    <input class="form__input" type="tel" name="phone" id="phone" placeholder="8-950-1234567" required>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset class="form__fieldset">
+                <legend>Информация о выбранном занятии</legend>
+                <ul class="form__list">
+                  <li class="form__item">
+                    <label class="form__label" for="type">Занятие:</label>
+                    <input class="form__input" type="text" name="type" id="type" placeholder="Цигун" required>
+                  </li>
+                  <li class="form__item">
+                    <label class="form__label" for="date">Дата:</label>
+                    <input class="form__input" type="date" name="date" id="date" value="2017-11-06" required>
+                  </li>
+                  <li class="form__item">
+                    <label class="form__label" for="time">Время:</label>
+                    <input class="form__input" type="time" name="time" id="time" value="08:30" required>
+                  </li>
+                </ul>
+              </fieldset>
+              <fieldset class="form__fieldset form__fieldset--comment">
+                <legend>Комментарий</legend>
+                <textarea class="form__comment" name="comment" id="comment" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+              </fieldset>
+              <button class="button form__submit" type="submit">Записаться</button>
+            </form>
+          </div>
+        </section>
+      </div>
+    </section>
+    <section class="news">
+      <div class="news__wrapper">
+        <h2 class="title news__title">Новости и акции</h2>
+        <ul class="news__list">
+          <li class="news__item">
+            <h3>Заголовок новости</h3>
+            <p class="news__date">
+              <time datetime="2017-11-05">5 ноября 2017</time>
+            </p>
+            <p class="news__text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Маленький подзаголовок буквоград власти которое первую вершину злых последний подпоясал?</p>
+            <p class="news__image">
+              <img src="http://fakeimg.pl/300x200/000000/FFF/?text=news" alt="Новость 1">
+            </p>
+            <a href="#" class="news__link">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <h3>Заголовок новости 2</h3>
+            <p class="news__date">
+              <time datetime="2017-11-05">5 ноября 2017</time>
+            </p>
+            <p class="news__text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Маленький подзаголовок буквоград власти которое первую вершину злых последний подпоясал?</p>
+            <p class="news__image">
+              <img src="http://fakeimg.pl/300x200/000000/FFF/?text=news2" alt="Новость 2">
+            </p>
+            <a href="#" class="news__link">Подробнее</a>
+          </li>
+          <li class="news__item">
+            <h3>Заголовок новости3</h3>
+            <p class="news__date">
+              <time datetime="2017-11-05">5 ноября 2017</time>
+            </p>
+            <p class="news__text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Маленький подзаголовок буквоград власти которое первую вершину злых последний подпоясал?</p>
+            <p class="news__image">
+              <img src="http://fakeimg.pl/300x200/000000/FFF/?text=news3" alt="Новость 3">
+            </p>
+            <a href="#" class="news__link">Подробнее</a>
+          </li>
+        </ul>
+        <a class="button news__all" href="news.html">Все новости</a>
+      </div>
+    </section>
+    <section class="types">
+      <div class="types__wrapper">
+        <h2 class="title types__title">Наши направления</h2>
+        <ul class="types__list">
+          <li class="types__item">
+            <a class="types__link" href="#">
+              <h3 class="types__name">Название1</h3>
+              <p class="types__image">
+                <img src="http://fakeimg.pl/300x200/000000/FFF/?text=type1" alt="Направление 1">
+              </p>
+            </a>
+            <p class="types__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Путь предложения рекламных однажды текстами!</p>
+          </li>
+          <li class="types__item">
+            <a class="types__link" href="#">
+              <h3 class="types__name">Название2</h3>
+              <p class="types__image">
+                <img src="http://fakeimg.pl/300x200/000000/FFF/?text=type2" alt="Направление 1">
+              </p>
+            </a>
+            <p class="types__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Путь предложения рекламных однажды текстами!</p>
+          </li>
+          <li class="types__item">
+            <a class="types__link" href="#">
+              <h3 class="types__name">Название3</h3>
+              <p class="types__image">
+                <img src="http://fakeimg.pl/300x200/000000/FFF/?text=type3" alt="Направление 1">
+              </p>
+            </a>
+            <p class="types__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Путь предложения рекламных однажды текстами!</p>
+          </li>
+          <li class="types__item">
+            <a class="types__link" href="#">
+              <h3 class="types__name">Название4</h3>
+              <p class="types__image">
+                <img src="http://fakeimg.pl/300x200/000000/FFF/?text=type4" alt="Направление 1">
+              </p>
+            </a>
+            <p class="types__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Путь предложения рекламных однажды текстами!</p>
+          </li>
+          <li class="types__item">
+            <a class="types__link" href="#">
+              <h3 class="types__name">Название5</h3>
+              <p class="types__image">
+                <img src="http://fakeimg.pl/300x200/000000/FFF/?text=type5" alt="Направление 1">
+              </p>
+            </a>
+            <p class="types__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Путь предложения рекламных однажды текстами!</p>
+          </li>
+          <li class="types__item">
+            <a class="types__link" href="#">
+              <h3 class="types__name">Название6</h3>
+              <p class="types__image">
+                <img src="http://fakeimg.pl/300x200/000000/FFF/?text=type6" alt="Направление 1">
+              </p>
+            </a>
+            <p class="types__description">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Путь предложения рекламных однажды текстами!</p>
+          </li>
+        </ul>
+        <a class="button types__all" href="types.html">Все направления</a>
+      </div>
+    </section>
+    <section class="coaches">
+      <div class="coaches__wrapper">
+        <h2 class="title coaches__title">Наши тренера</h2>
+        <ul class="coaches__list">
+          <li class="coaches__item">
+            <a class="coaches__link" href="#">
+              <h3 class="coaches__name">Тренер1 <span class="coaches__type">направление</span></h3>
+              <p class="coaches__image">
+                <img src="http://fakeimg.pl/150x150/000000/FFF/?text=coach1" alt="Тренер 1">
+              </p>
+            </a>
+          </li>
+          <li class="coaches__item">
+            <a class="coaches__link" href="#">
+              <h3 class="coaches__name">Тренер2 <span class="coaches__type">направление</span></h3>
+              <p class="coaches__image">
+                <img src="http://fakeimg.pl/150x150/000000/FFF/?text=coach2" alt="Тренер 2">
+              </p>
+            </a>
+          </li>
+          <li class="coaches__item">
+            <a class="coaches__link" href="#">
+              <h3 class="coaches__name">Тренер3 <span class="coaches__type">направление</span></h3>
+              <p class="coaches__image">
+                <img src="http://fakeimg.pl/150x150/000000/FFF/?text=coach3" alt="Тренер 3">
+              </p>
+            </a>
+          </li>
+          <li class="coaches__item">
+            <a class="coaches__link" href="#">
+              <h3 class="coaches__name">Тренер4 <span class="coaches__type">направление</span></h3>
+              <p class="coaches__image">
+                <img src="http://fakeimg.pl/150x150/000000/FFF/?text=coach4" alt="Тренер 4">
+              </p>
+            </a>
+          </li>
+          <li class="coaches__item">
+            <a class="coaches__link" href="#">
+              <h3 class="coaches__name">Тренер5 <span class="coaches__type">направление</span></h3>
+              <p class="coaches__image">
+                <img src="http://fakeimg.pl/150x150/000000/FFF/?text=coach5" alt="Тренер 5">
+              </p>
+            </a>
+          </li>
+          <li class="coaches__item">
+            <a class="coaches__link" href="#">
+              <h3 class="coaches__name">Тренер6 <span class="coaches__type">направление</span></h3>
+              <p class="coaches__image">
+                <img src="http://fakeimg.pl/150x150/000000/FFF/?text=coach6" alt="Тренер 6">
+              </p>
+            </a>
+          </li>
+          <li class="coaches__item">
+            <a class="coaches__link" href="#">
+              <h3 class="coaches__name">Тренер7 <span class="coaches__type">направление</span></h3>
+              <p class="coaches__image">
+                <img src="http://fakeimg.pl/150x150/000000/FFF/?text=coach7" alt="Тренер 7">
+              </p>
+            </a>
+          </li>
+          <li class="coaches__item">
+            <a class="coaches__link" href="#">
+              <h3 class="coaches__name">Тренер8 <span class="coaches__type">направление</span></h3>
+              <p class="coaches__image">
+                <img src="http://fakeimg.pl/150x150/000000/FFF/?text=coach8" alt="Тренер 8">
+              </p>
+            </a>
+          </li>
+          <li class="coaches__item">
+            <a class="coaches__link" href="#">
+              <h3 class="coaches__name">Тренер9 <span class="coaches__type">направление</span></h3>
+              <p class="coaches__image">
+                <img src="http://fakeimg.pl/150x150/000000/FFF/?text=coach9" alt="Тренер 9">
+              </p>
+            </a>
+          </li>
+        </ul>
+        <a class="button coaches__all" href="coaches.html">Все тренера</a>
+      </div>
+    </section>
+  </main>
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <section class="page-footer__recall recall">
+        <h2 class="title recall__title">Остались вопросы?</h2>
+        <p class="recall__text">Для получения подробной консультации, оставьте свой номер телефона, и мы перезвоним Вам в течении 20 минут</p>
+        <form class="recall__form form" action="#" method="post">
+          <p>
+            <label class="form__label" for="tel">Телефон:</label>
+            <input class="form__input" type="tel" name="phone" id="tel" placeholder="8-950-1234567">
+          </p>
+          <button class="button form__submit" type="submit">Позвоните мне!</button>
+        </form>
+      </section>
+      <section class="page-footer__contacts contacts">
+        <h2 class="title contacts__title">Наши контакты</h2>
+        <p class="contacts__address">
+          <svg class="contacts__icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
+            <path d="M0 0h24v24H0z" fill="transparent"/>
+          </svg>
+          <span class="visually-hidden">Приходите к нам по адресу:</span> город Пермь, улица Луначарского, 51а
+        </p>
+        <p class="contacts__email">
+          <svg class="contacts__icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
+            <path d="M0 0h24v24H0z" fill="transparent"/>
+          </svg>
+          <span class="visually-hidden">Пишите нам на почту</span>
+          <a href="mailto:qwerty@lorem.ru">qwerty@lorem.ru</a>
+        </p>
+        <p class="contacts__phone">
+          <svg class="contacts__icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0 0h24v24H0z" fill="transparent"/>
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/>
+          </svg>
+          <span class="visually-hidden">Звоните нам по номеру</span>
+          <a href="tel:222-33-44">222-33-44</a>
+        </p>
+        <div class="contacts__social social">
+          <p class="social__text visually-hidden">Ищите нас в социальных сетях:</p>
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">Вконтакте</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+                  <g>
+                    <path d="M16.637 14.495c.402-.019.719-.082.951-.188.326-.145.54-.33.641-.559.101-.229.15-.496.15-.797 0-.232-.058-.465-.174-.697-.116-.232-.322-.405-.617-.517-.264-.1-.592-.155-.984-.165a76.242 76.242 0 0 0-1.652-.014h-.339v2.965h.565c.571 0 1.057-.009 1.459-.028zM18.118 17.084c-.282-.081-.672-.125-1.166-.132a127.97 127.97 0 0 0-1.55-.009h-.79v3.493h.264c1.014 0 1.74-.003 2.18-.009a3.2 3.2 0 0 0 1.212-.245c.377-.157.633-.364.774-.625s.214-.562.214-.9c0-.446-.088-.788-.261-1.03-.17-.241-.464-.423-.877-.543z" fill="currentColor"/>   <path d="M16 0C7.164 0 0 7.164 0 16c0 8.837 7.164 16 16 16 8.837 0 16-7.163 16-16 0-8.836-7.163-16-16-16zm6.602 20.531a3.73 3.73 0 0 1-1.124 1.327c-.552.415-1.161.71-1.823.886s-1.501.264-2.519.264h-6.121V8.987h5.443c1.13 0 1.957.038 2.48.113a5.126 5.126 0 0 1 1.561.5c.533.27.929.632 1.189 1.087.26.455.392.975.392 1.558 0 .678-.179 1.278-.536 1.795-.358.518-.863.92-1.517 1.208v.075c.917.182 1.642.559 2.179 1.13.537.571.807 1.325.807 2.261 0 .678-.138 1.283-.411 1.817z" fill="currentColor"/>
+                  </g>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">Facebook</span>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+                  <path fill="currentColor" d="M16,0C7.164,0,0,7.163,0,16s7.164,16,16,16c8.837,0,16-7.164,16-16S24.837,0,16,0z M20.062,9.455h-3.021	v3.444h3.021v3.445h-3.021v8.61h-3.021v-8.61H11v-3.445h3.021V9.455c0-1.902,1.353-3.445,3.021-3.445h3.021V9.455z"/>
+                </svg>
+              </a>
+            </li>
+            <li class="social__item">
+              <a class="social__link" href="#">
+                <span class="visually-hidden">Instagram</span>
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="32px" height="32px" viewBox="0 0 32 32" enable-background="new 0 0 32 32" xml:space="preserve">
+                  <g>
+                    <path fill="currentColor" d="M20.916,16c0,2.728-2.211,4.938-4.938,4.938S11.039,18.728,11.039,16c0-0.394,0.051-0.773,0.138-1.14 h-0.897v6.838h11.396V14.86h-0.897C20.865,15.227,20.916,15.606,20.916,16z"/>
+                    <path fill="currentColor" d="M15.978,18.659c1.466,0,2.659-1.193,2.659-2.659s-1.193-2.659-2.659-2.659 c-1.466,0-2.659,1.193-2.659,2.659S14.511,18.659,15.978,18.659z"/>
+                    <rect x="18.637" y="10.302" fill="#FFFFFF" width="3.039" height="3.039"/>
+                    <path fill="currentColor" d="M16,0C7.164,0,0,7.164,0,16c0,8.837,7.164,16,16,16c8.837,0,16-7.163,16-16C32,7.164,24.837,0,16,0z M23.955,21.698c0,1.254-1.025,2.279-2.279,2.279H10.279C9.026,23.978,8,22.952,8,21.698V10.302c0-1.253,1.026-2.279,2.279-2.279 h11.396c1.254,0,2.279,1.026,2.279,2.279V21.698z"/
+                  </g>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="page-footer__map map">
+      <h2 class="title map__title visually-hidden">Мы на карте Перми</h2>
+      <p class="map__iframe">
+        <iframe src="https://yandex.ru/map-widget/v1/-/CBayMDxR~A"></iframe>
+      </p>
+    </section>
+    </div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
